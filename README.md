@@ -71,15 +71,15 @@ DigitalMoneyFortune/
 
 ## Getting Started
 
-1. Clone the repo into your XAMPP `htdocs` folder:
+1. Clone the repo into your XAMPP `htdocs` folder (it will be placed under `htdocs/luckybet/`):
    ```
-   git clone https://github.com/Akila-G05/DigitalMoneyFortune.git
+   git clone https://github.com/Akila-G05/luckybet.git
    ```
 2. Import the MySQL database from [`database/DMC.sql`](database/DMC.sql) into phpMyAdmin (creates the `maruwabet` DB with all tables and seed data).
 3. Update DB credentials in `connection.php` if needed.
-4. Start Apache + MySQL from XAMPP and open:
+4. Start Apache + MySQL from XAMPP and open the app in your browser:
    ```
-   http://localhost/DigitalMoneyFortune/
+   http://localhost/luckybet/index.php
    ```
 
 ## Note
