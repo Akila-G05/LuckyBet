@@ -75,7 +75,7 @@ DigitalMoneyFortune/
    ```
    git clone https://github.com/Akila-G05/DigitalMoneyFortune.git
    ```
-2. Import the MySQL database (`maruwabet`) into phpMyAdmin.
+2. Import the MySQL database from [`database/DMC.sql`](database/DMC.sql) into phpMyAdmin (creates the `maruwabet` DB with all tables and seed data).
 3. Update DB credentials in `connection.php` if needed.
 4. Start Apache + MySQL from XAMPP and open:
    ```
