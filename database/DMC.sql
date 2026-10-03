@@ -7,8 +7,8 @@
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
-CREATE DATABASE IF NOT EXISTS `maruwabet` /*!40100 DEFAULT CHARACTER SET utf8mb3 */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `maruwabet`;
+CREATE DATABASE IF NOT EXISTS `luckybet` /*!40100 DEFAULT CHARACTER SET utf8mb3 */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `luckybet`;
 
 CREATE TABLE IF NOT EXISTS `admin` (
   `email` varchar(50) CHARACTER SET utf8mb3 COLLATE utf8mb3_general_ci NOT NULL DEFAULT '',
@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 INSERT INTO `admin` (`email`, `name`, `password`, `v_code`, `bet_count`, `bet_status`, `t_status`) VALUES
-	('akilagimhana2005@gmail.com', 'Akila Gimhana', 'akila@2005', '68b723c029ae6', 10, 1, 1);
+	('akilagimhana2005@gmail.com', 'Akila Gimhana', 'user@0000', '68b723c029ae6', 10, 1, 1);
 
 CREATE TABLE IF NOT EXISTS `bets` (
   `id` int NOT NULL AUTO_INCREMENT,
